@@ -13,6 +13,13 @@ const NewPost = (props) => {
         onChange={props.onChange}
         value={props.id}
     />
+     <label>Author</label>
+    <input type="text"
+        label={'name'}
+        name={'name'}
+        onChange={props.onChange}
+        value={props.name}
+    />
     <label>Title</label>
     <input type="text"
         label={'title'}
@@ -20,14 +27,6 @@ const NewPost = (props) => {
         onChange={props.onChange}
         value={props.title}
     />
-    <label>Author</label>
-    <input type="text"
-        label={'author'}
-        author={'author'}
-        onChange={props.onChange}
-        value={props.author}
-    />
-
 
     <button onClick={props.addButtonClicked}>Change Name </button>
 </div>

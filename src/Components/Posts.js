@@ -12,7 +12,7 @@ const Posts = (props) => {
 // });
 
 const posts=props.posts.map(entity=>{
-    return <Post key={entity.id} id={entity.id} title={entity.title} author={entity.author}/>
+    return <Post key={entity.id} id={entity.id} title={entity.title} name={entity.name}/>
 })
   return posts;
   

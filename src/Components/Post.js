@@ -2,13 +2,11 @@
 
 const Post = (props) => {
 
-
-
   return (
     <div className="Content">
     <h1>Id: {props.id}</h1>
     <h2>Title:{props.title}</h2>
-    <h2>Author:{props.author}</h2>
+    <h2>Author:{props.name}</h2>
          </div>
   )
 }
